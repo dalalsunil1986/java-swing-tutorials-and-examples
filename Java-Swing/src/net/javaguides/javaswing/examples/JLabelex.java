@@ -25,9 +25,6 @@ public static void main(String args[])
     }  
     
 
-	/**
-	 * Create the frame.
-	 */
 	public JLabelex() {
 	
 	}
