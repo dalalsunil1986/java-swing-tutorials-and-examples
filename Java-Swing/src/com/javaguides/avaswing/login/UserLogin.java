@@ -24,10 +24,6 @@ public class UserLogin extends JFrame {
 	private JTextField textField;
 	private JPasswordField passwordField;
 	private JButton btnNewButton;
-	private String user[]={"Soumyadip","Soumya"};
-	private String pass[]={"abcd","abcde"};
-	private JLabel lblNewLabel_1;
-	private JLabel label;
 	private JLabel label_1;
 	private JPanel contentPane;
 
@@ -132,7 +128,7 @@ public class UserLogin extends JFrame {
 				{
 					dispose();
 					UserHome ah=new UserHome(ustr);
-					ah.setTitle("Student-Home");
+					ah.setTitle("Welcome");
 					ah.setVisible(true);
 					JOptionPane.showMessageDialog(btnNewButton, "You have successfully logged in");
 				}

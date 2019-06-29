@@ -1,14 +1,12 @@
 package net.javaguides.javaswing.examples;
 
-import javax.swing.JFrame;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
+import javax.swing.*;
 
 class MenuBar extends JFrame{
 	
-
-	
+	/**
+	 * 
+	 */
 	private static final long serialVersionUID = 1L;
 	MenuBar(){}
 	MenuBar(String s){super(s);}
