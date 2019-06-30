@@ -56,7 +56,7 @@ public class DeleteSearch extends JFrame {
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
-		JButton btnSearch = new JButton("Search");
+		JButton btnSearch = new JButton("Delete");
 		btnSearch.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 

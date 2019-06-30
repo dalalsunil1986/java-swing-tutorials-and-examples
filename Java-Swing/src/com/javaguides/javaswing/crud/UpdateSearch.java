@@ -60,7 +60,7 @@ public class UpdateSearch extends JFrame {
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
-		JButton btnSearch = new JButton("Search");
+		JButton btnSearch = new JButton("Update");
 		btnSearch.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 

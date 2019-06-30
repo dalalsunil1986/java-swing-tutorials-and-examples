@@ -71,7 +71,7 @@ public class AdminHome extends JFrame {
 		});
 		mnNewMenu_1.add(mntmAddOldBooks);
 		
-		JMenuItem mntmAddNewBooks = new JMenuItem("Add Marks");
+		JMenuItem mntmAddNewBooks = new JMenuItem("Update Stuent");
 		mntmAddNewBooks.addActionListener(new ActionListener() {
 		public void actionPerformed(ActionEvent e) {
 			UpdateSearch obj=new UpdateSearch();
@@ -79,19 +79,6 @@ public class AdminHome extends JFrame {
 		}
 	});
 		mnNewMenu_1.add(mntmAddNewBooks);
-		
-		JMenu mnSettings = new JMenu("Settings");
-		menuBar.add(mnSettings);
-		
-		JMenu mnNewMenu_3 = new JMenu("Adminstration");
-		mnSettings.add(mnNewMenu_3);
-		
-		
-		JMenuItem mntmAddFaculty = new JMenuItem("Add Faculty");
-		mnNewMenu_3.add(mntmAddFaculty);
-		
-		JMenuItem mntmManageFaculty = new JMenuItem("Manage Faculty");
-		mnNewMenu_3.add(mntmManageFaculty);
 		
 		JButton add = new JButton("Add student");
 		add.setFont(new Font("Tahoma", Font.PLAIN, 29));
