@@ -73,7 +73,7 @@ class Chk2 extends JFrame{
 	}
 }
 
-public class CheckBox2 extends Chk2{
+public class CheckBoxMenu extends Chk2{
 
 	public static void main(String args[])
 	{

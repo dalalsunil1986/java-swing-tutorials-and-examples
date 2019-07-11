@@ -4,9 +4,7 @@ import javax.swing.*;
 
 class MenuBar extends JFrame{
 	
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 	MenuBar(){}
 	MenuBar(String s){super(s);}
