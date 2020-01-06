@@ -17,7 +17,7 @@ public class JFrameEx {
         panel.add(label);  
         panel.add(button);  
         frame.add(panel);  
-        frame.setSize(200, 300);  
+        frame.setSize(2000, 300);  
         frame.setLocationRelativeTo(null);  
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
         frame.setVisible(true);  

@@ -35,7 +35,6 @@ public class UserHome extends JFrame {
 			public void run() {
 				try {
 				//	UserHome frame = new UserHome();
-					
 					//frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();

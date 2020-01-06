@@ -19,8 +19,7 @@ import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.PreparedStatement;
 
 public class Change extends JFrame {
-
-	private JPanel contentPane;
+private JPanel contentPane;
 private JTextField textField;
 private JLabel lblEnterNewPassword;
 	/**
@@ -33,10 +32,13 @@ private JLabel lblEnterNewPassword;
 				
 				} catch (Exception e) {
 					e.printStackTrace();
-				}
-			}
+				}			}
 		});
 	}
+	
+	
+	
+	
 
 	/**
 	 * Create the frame.
